@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-style: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, rgb(49, 48, 49), rgb(168, 168, 168));
+}
+
+.roow:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+  .roow { display: inline-block; }
+  * html .roow { height: 1%; }
+  .roow { display: block; }
+
+
+.weather {
+    text-align: center;
+    width: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 16px 0 rgba(50, 50, 50, 0.1);
+    background: linear-gradient(to left, rgb(255, 255, 255), rgb(8, 8, 8));
+    margin:0 auto;
+    color: black;
+}
+
+.weather__city{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.weather__forecast{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.weather__desc{
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
